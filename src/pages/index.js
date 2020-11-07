@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box"
 export default function Home() {
   return (
     <Box>
-      <Typography variant="body1">Hello, world!</Typography>
+      <Typography variant="h1">Headng 1!</Typography>
     </Box>
   )
 }
