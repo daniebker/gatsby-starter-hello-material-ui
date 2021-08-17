@@ -1,4 +1,4 @@
-import { createMuiTheme, responsiveFontSizes } from "@material-ui/core"
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core';
 
 // default setup from the gatsby examples
 // https://www.gatsbyjs.com/plugins/gatsby-theme-material-ui/
@@ -10,8 +10,8 @@ const theme = createMuiTheme({
     //   palette: {
     //     type: 'dark',
     //   },
-    fontFamily: ["Roboto", "sans-serif"].join(","),
+    fontFamily: ['Roboto', 'sans-serif'].join(','),
   },
-})
+});
 
-export default responsiveFontSizes(theme)
+export default responsiveFontSizes(theme);
