@@ -1,12 +1,23 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
-export default function Home() {
+import BasicTypography from '../Components/Typography/BasicTypography';
+import BasicTable from '../Components/Table/BasicTable';
+
+export default function Home () {
   return (
     <Box>
-      <Typography variant="h1">Heading 1</Typography>
-      <Typography variant="h2">Heading 2</Typography>
+      <CssBaseline />
+      <Container maxWidth='lg'>
+        <Typography variant='h2'>Typography</Typography>
+        <BasicTypography />
+
+        <Typography variant='h2'>Basic Table</Typography>
+        <BasicTable />
+      </Container>
     </Box>
   );
 }
